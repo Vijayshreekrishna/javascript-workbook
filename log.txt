@@ -1,1 +1,6 @@
+| I. JS crash course |
+
 1. prepred remote connection
+2. started js crash course
+3.done with intro , datatypes,methods
+4.done with loops, conditions ,JSON, switch cases
