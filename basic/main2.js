@@ -1,3 +1,32 @@
+// ARRAYS - Store multiple values in a variable
+const numbers = [1,2,3,4,5];
+const fruits = ['apples', 'oranges', 'pears', 'grapes'];
+console.log(numbers, fruit);
+
+// Get one value - Arrays start at 0
+console.log(fruits[1]);
+
+// Add value
+fruits[4] = 'blueberries';
+
+// Add value using push()
+fruits.push('strawberries');
+
+// Add to beginning
+fruits.unshift('mangos');
+
+// Remove last value
+fruits.pop();
+
+// // Check if array
+console.log(Array.isArray(fruits));
+
+// // Get index
+console.log(fruits.indexOf('oranges'));
+
+
+
+
 //conditions
 
 // const x =100;
