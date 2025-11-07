@@ -1,28 +1,3 @@
-// ARRAYS - Store multiple values in a variable
-const numbers = [1,2,3,4,5];
-const fruits = ['apples', 'oranges', 'pears', 'grapes'];
-console.log(numbers, fruit);
-
-// Get one value - Arrays start at 0
-console.log(fruits[1]);
-
-// Add value
-fruits[4] = 'blueberries';
-
-// Add value using push()
-fruits.push('strawberries');
-
-// Add to beginning
-fruits.unshift('mangos');
-
-// Remove last value
-fruits.pop();
-
-// // Check if array
-console.log(Array.isArray(fruits));
-
-// // Get index
-console.log(fruits.indexOf('oranges'));
 
 
 
@@ -82,20 +57,40 @@ console.log(fruits.indexOf('oranges'));
 
 //----------------------------
 
-//switch case
-const x =10000;
+// //switch case
+// const x =10000;
 
-const color = x> 10000? 'red':'blue';
+// const color = x> 10000? 'red':'blue';
 
-switch (color){
-    case 'red':
-        console.log('color is red');
-        break;
-    case 'blue':
-        console.log('color is blue');
-        break;          
-    default:
-        console.log('color is not red or blue');
-        break;      
+// switch (color){
+//     case 'red':
+//         console.log('color is red');
+//         break;
+//     case 'blue':
+//         console.log('color is blue');
+//         break;          
+//     default:
+//         console.log('color is not red or blue');
+//         break;      
 
+// }
+
+
+//functions
+function addNums(num1 = 1, num2 = 1){
+    return num1 + num2;
 }
+
+// // addNums();
+// // addNums(5,5);
+// .
+console.log(addNums(5,5)); 
+
+        //    ||
+        //    \/
+
+//arrow function
+const addNumbers = (num1 = 1, num2 = 1) => 
+    num1 + num2;
+
+console.log(addNumbers(5,5));

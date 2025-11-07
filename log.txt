@@ -2,5 +2,7 @@
 
 1. prepred remote connection
 2. started js crash course
-3.done with intro , datatypes,methods
+3.done with intro , datatypes, methods
 4.done with loops, conditions ,JSON, switch cases
+5.arrays , conditions, objects, prototype, class
+6. done with :) Dom methods , events and its usage 
